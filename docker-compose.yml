@@ -1,0 +1,16 @@
+services:
+  db:                                     # имя сервиса (и хоста в docker-сети)
+    image: postgres:16                    # какой образ использовать
+    restart: unless-stopped
+    environment:                          # переменные окружения внутри контейнера
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:                              # что и куда примонтировать
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - pgdata:/var/lib/postgresql/data
+    ports:                                # проброс порта наружу из контейнера
+      - "${POSTGRES_PORT}:5432"
+
+volumes:
+  pgdata:                                 # объявление именованного volume
