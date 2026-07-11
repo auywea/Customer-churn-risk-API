@@ -1,0 +1,25 @@
+# Виртуальное окружение
+venv/
+
+# Данные (не коммитим датасеты)
+data/raw/
+data/processed/
+
+# Модели
+models/
+*.pkl
+*.joblib
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Переменные окружения (пароли от БД и т.д., пригодится позже для Postgres)
+.env
+.env.*
+
+# macOS
+.DS_Store
