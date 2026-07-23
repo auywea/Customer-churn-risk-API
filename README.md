@@ -64,9 +64,9 @@ _Filled in after running `train.py` locally — replace with real numbers._
 
 | Model               | ROC-AUC | F1   |
 |---------------------|---------|------|
-| Dummy baseline       | —       | —    |
-| Logistic Regression  | —       | —    |
-| CatBoost             | —       | —    |
+| Dummy baseline       | 0.5       | 0    |
+| Logistic Regression  | 0.846       | 0.609    |
+| CatBoost             | 0.856       | 0.6    |
 
 ## Running locally
 
