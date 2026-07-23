@@ -60,7 +60,7 @@ them for later analysis. Dataset: [Telco Customer Churn](https://www.kaggle.com/
 
 ## Model results
 
-_Filled in after running `train.py` locally — replace with real numbers._
+
 
 | Model               | ROC-AUC | F1   |
 |---------------------|---------|------|
