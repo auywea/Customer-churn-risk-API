@@ -10,7 +10,7 @@ unit tests. The FastAPI layer is not built yet — see [Roadmap](#roadmap).
 
 Built to practice a realistic ML engineering workflow end-to-end: clean data → engineer
 features without leakage → compare models against a baseline → serve predictions → persist
-them for later analysis. Dataset: [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+them for later analysis. Dataset: [Telco Customer Churn](https://www.kaggle.com/datasets/abdallahwagih/telco-customer-churn)
 (IBM sample dataset, via Kaggle).
 
 ## Tech stack
